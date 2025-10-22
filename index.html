@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceramic Soul</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script type="module" src="/src/main.js"></script>
+</head>
+<body>
+    <section class="hero_section">
+        <div class="header_icons">
+            <a href="#" class="icon_link">
+                <img src="icons/search.svg" alt="Search" class="icon">
+            </a>
+            <a href="#" class="icon_link">
+                <img src="icons/shopping_bag.svg" alt="Shopping Bag" class="icon">
+            </a>
+        </div>
+        
+        <div class="hero_left_image">
+            <img src="images/potter.png" alt="Pottery in progress">
+        </div>
+        
+        <div class="hero_right_section">
+            <header class="main_header">
+                
+                <div class="logo_section">
+                    <div class="logo_icon">
+                        <img src="icons/logo.svg" alt="Ceramic Soul Logo">
+                    </div>
+                </div>
+                
+                <nav class="main_nav">
+                    <ul class="nav_menu" role="list">
+                        <li><a href="catalog.html" class="nav_link">CATALOG</a></li>
+                        <li><a href="blog.html" class="nav_link">BLOG</a></li>
+                        <li><a href="about.html" class="nav_link">ABOUT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <div class="hero_content_section">
+                <div class="promo_text">
+                    <h2>MAKE YOUR DREAM COME TRUE</h2>
+                    <h2>OR DECORATE YOUR HOME</h2>
+                </div>
+                <div class="hero_right_image">
+                    <img src="images/ceramic-vase.png" alt="Ceramic vase">
+                    <button class="shopnow_btn">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="create_buy_section">
+        <div class="container">
+            <h2 class="section_title">CREATE OR BUY</h2>
+            <div class="create_buy_content">
+                <div class="store_section">
+                    <h3 class="subsection_title">OUR STORE</h3>
+                    <div class="store_img"> <img src="images/store.png" alt="store-section"></div>
+                    <p class="section_text">
+                        Welcome to Ceramic Soul, where each piece tells a story of craftsmanship and creativity. 
+                        Our handmade ceramics are thoughtfully designed and carefully crafted, blending traditional 
+                        techniques with modern aesthetics. Whether you're looking for a unique gift or a special 
+                        addition to your home, our collection offers timeless pieces that bring warmth and authenticity 
+                        to any space.
+                    </p>
+                </div>
+                <div class="workshop_section">
+                    <h3 class="subsection_title">OUR WORKSHOP</h3>
+                    <div class="workshop_image"><img src="images/workshop.png" alt="store-section">
+                    </div>
+                    <p class="section_text">
+                        At Ceramic Soul workshop, we don't just craft ceramics—we invite you to get hands-on and 
+                        create your own unique pieces. Through our engaging masterclasses, you'll learn traditional 
+                        techniques, work with natural materials, and experience the joy of shaping clay into something 
+                        truly personal.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact_section">
+        <div class="container">
+            <h2 class="section_title">GET IN TOUCH</h2>
+            <div class="contact_content">
+                <div class="contact_image"><img src="images/tea.png"></div>
+
+                <div class="contact_form">
+                    <form>
+                        <div class="form_row">
+                            <input type="text" placeholder="Name" class="form_input">
+                            <input type="email" placeholder="Email" class="form_input">
+                        </div>
+
+                        <textarea placeholder="Question" class="form_textarea"></textarea>
+
+                        <div class="checkbox_container">
+                            <input type="checkbox" id="terms" class="form_checkbox">
+                            <label for="terms">I agree with the <a href="#" class="terms_link">terms</a>.</label>
+                        </div>
+
+                        <button type="submit" class="form_submit_btn">SEND REQUEST</button>
+                    </form>
+
+                    <div class="form_icon"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery_section">
+        <div class="container">
+            <h2 class="section_title">CHECK OUT OUR WORKS</h2>
+            <div class="gallery_container">
+                <button class="gallery_arrow gallery_arrow_left">&lt;</button>
+                <div class="gallery_images">
+                    <div class="gallery_image">
+                        <img src="images/tea-ceremony.png" alt="Tea ceremony setting">
+                    </div>
+                    <div class="gallery_image active">
+                        <img src="images/tea-7.png" alt="Tea cup and pot">
+                    </div>
+                    <div class="gallery_image">
+                        <img src="images/tea-6.png" alt="Tea setting on mossy rock">
+                    </div>
+                </div>
+                <button class="gallery_arrow gallery_arrow_right">&gt;</button>
+            </div>
+            <div class="gallery_indicators">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="footer-column newsletter">
+                <h3>NEWSLETTER</h3>
+                <p>Keep up to date with news and promotions</p>
+                <form class="newsletter_form">
+                    <input type="email" placeholder="Enter your e-mail" class="newsletter_input">
+                    <div class="newsletter_checkbox">
+                        <input type="checkbox" id="newsletter-terms">
+                        <label for="newsletter-terms">I agree with the <a href="#" class="terms_link">terms</a></label>
+                    </div>
+                    <button type="submit" class="newsletter_btn">SUBMIT</button>
+                </form>
+            </div>
+
+            <div class="footer_column">
+                <h3>DISCOVER</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_column">
+                <h3>SHOPPING</h3>
+                <ul>
+                    <li><a href="catalog.html">Catalog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_column">
+                <h3>INFORMATION</h3>
+                <ul>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column socials">
+                <h3>FOLLOW US</h3>
+                <div class="social_icons">
+                    <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="icons/insta.svg" alt="Instagram"></a>
+                    <a href="#"><img src="icons/pinterest.svg" alt="Pinterest"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <p>© Copyright 2025, Ceramic Soul</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
