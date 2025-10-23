@@ -3,6 +3,7 @@ import { copyFileSync } from 'fs'
 import { resolve } from 'path'
 
 export default defineConfig({
+  base: '/lab3/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
