@@ -33,12 +33,17 @@
     }
     
     .hero_left_image {
-        display: none;
+        display: none !important;
     }
     
     .hero_right_section {
         flex: 1;
         width: 100%;
+        padding: $spacing-md;
+    }
+    
+    .hero_section {
+        flex-direction: column;
     }
     
     .content_wrapper {
