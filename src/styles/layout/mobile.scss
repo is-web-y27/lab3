@@ -34,6 +34,11 @@
     
     .hero_left_image {
         display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        width: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
     }
     
     .hero_right_section {
@@ -91,6 +96,15 @@
 }
 
 @media (max-width: $breakpoint-mobile) {
+    .hero_left_image {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        width: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
+    }
+    
     .logo_section {
         .logo_text {
             font-size: $font-size-large;
