@@ -1,0 +1,134 @@
+@use '../vars' as *;
+
+@media (max-width: $breakpoint-tablet) {
+    .hamburger_menu {
+        display: flex;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        z-index: 1001;
+    }
+    
+    .main_header {
+        .header_icons {
+            right: 60px;
+        }
+        
+        .main_nav {
+            display: none;
+        }
+    }
+    
+    .hero_content {
+        flex-direction: column;
+    }
+    
+    .hero_image {
+        flex: 0 0 40vh;
+    }
+    
+    .hero_text {
+        flex: 1;
+        padding: $spacing-md;
+    }
+    
+    .hero_left_image {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        width: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
+    }
+    
+    .hero_right_section {
+        flex: 1;
+        width: 100%;
+        padding: $spacing-md;
+    }
+    
+    .hero_section {
+        flex-direction: column;
+    }
+    
+    .content_wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: $spacing-lg;
+    }
+    
+    .text_section {
+        text-align: center;
+        padding-bottom: 0;
+    }
+    
+    .image_section {
+        transform: none;
+        margin: 0;
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .gallery_container {
+        flex-direction: row;
+        gap: $spacing-md;
+    }
+    
+    .gallery_images {
+        width: 100%;
+        max-width: 600px;
+    }
+    
+    .gallery_image {
+        flex: 0 0 200px;
+        height: 250px;
+    }
+    
+    .create_buy_content {
+        grid-template-columns: 1fr;
+        gap: $spacing-lg;
+    }
+    
+    .contact_content {
+        grid-template-columns: 1fr;
+        gap: $spacing-lg;
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .hero_left_image {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        width: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
+    }
+    
+    .logo_section {
+        .logo_text {
+            font-size: $font-size-large;
+        }
+        
+        .logo_line {
+            width: 150px;
+        }
+    }
+    
+    .gallery_images {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    .gallery_image {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .section_title {
+        font-size: $font-size-xxl;
+    }
+}
+
